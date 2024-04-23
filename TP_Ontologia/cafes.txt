@@ -1,5 +1,5 @@
 Cafes calientes
-+ Lattes
++ Lattes => 90% leche vaporizada, 10% cafe
 	Skinny vainilla Latte: Cafe espresso, leche descremada, vainilla
 	Vainilla Latte: Cafe espresso, leche, vainilla
 	Latte: cafe espresso, leche vaporizada
@@ -8,18 +8,23 @@ Cafes calientes
 	Latte miel: cafe, leche, miel
 	kitkat Latte: leche, cafe, kitkat, crema batida
 	Latte nuez moscada: canela, nuez moscada, leche, miel, cafe
-+ Cappuccinos
+
++ Cappuccinos => Tercios iguales de cafe,leche y espuma
 	Cappuccino: Cafe espresso, leche vaporizada, espuma de leche
-+ Flat white
+
++ Flat white => 70% leche vaporizada, 30% cafe
 	Flat white: Cafe espresso, leche vaporizada
 	
-+ Americanos
+
++ Americanos => >=60% de agua caliente
 	Americano: Cafe espresso, agua caliente
-+ Macchiatos
+
++ Macchiatos => 90% cafe
 	Latte Macciato: Leche vaporizada, cafe espresso, crema batida
 	Skinny caramel Macchiato: vainilla, leche, cafe espresso, caramelo, azucar
 	Caramel Macchiato: Vainilla, leche, cafe espresso, 
-+ Mochas
+
++ Mochas => tiene chocolate
 	Mocha Blanco: Chocolate blanco, cafe espresso, leche vaporizada, crema batida
 	Mocha: Chocolate negro, cafe espresso, leche vaporizada, crema batida.
 	Bombom: espuma de leche, cafe, leche condensada
@@ -29,32 +34,38 @@ Cafes calientes
 
 --------------------------------------------------------------------------------
 Cafes Frios
-+ Shaken espresso
++ Shaken espresso => cafe + hielo
 	Avellana Shaken espresso con avena helado: cafe espresso, jarabe de avellana, leche de avena, hielo
 	Chocolate shaken espresso con avena helado: cafe espresso, chocolate, leche de avena, hielo
-+ Macchiatos
+
++ Macchiatos => 90% cafe
 	skinny caramel macchiato helado: vainilla, leche, cafe espresso, caramelo, azucar, hielo
 	Caramel Macchiato helado: Vainilla, leche, cafe espresso, hielo
-+ Cappuccinos
+
++ Cappuccinos => Tercios iguales de cafe,leche y espuma
 	Cappuccino helado: cafe espresso, leche, hielo
-+ Lattes
+
++ Lattes => 90% leche vaporizada, 10% cafe
 	Skinny vainilla Latte: Cafe espresso, leche descremada, vainilla, hielo
 	Vainilla Latte: Cafe espresso, leche, vainilla, hielo
 	Latte: cafe espresso, leche vaporizada, hielo
 	Dulce de leche Latte: cafe espresso, dulce de leche, leche al vapor, crema batida, caramelo, hielo
 	Latte canela: canela, leche, cafe, hielo
-+ Cold Brews
+	
++ Cold Brews => 50%leche
 	Cold Brew cold foam: Cafe, leche, hielo
 	Sweet vainilla cold brew: Cafe, vainilla, leche, hielo, azucar
 	cold brew: Cafe, hielo, agua
-+ Americanos
+	
++ Americanos => >=60% de agua caliente
 	Americano helado: cafe espresso, agua, hielo
-+ Mochas
+	
++ Mochas => tiene chocolate
 	Mocha Blanco: Chocolate blanco, cafe espresso, leche vaporizada, crema batida, hielo
 	Mocha: Chocolate negro, cafe espresso, leche vaporizada, crema batida, hielo
 	
 -------------------------------------------------------------------------------
-Frappuccino	 
+Frappuccino => hielo triturado	 
 + Frappuccino: cafe espresso, leche, hielo triturado, azucar
 + Caramel Frappuccino: Frappuccino, caramelo, leche, hielo triturado, crema batida
 + Mocha Blanco Frappuccino: Cafe, leche, chocolate blanco, hielo triturado, crema batida
