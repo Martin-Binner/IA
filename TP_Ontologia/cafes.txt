@@ -72,21 +72,22 @@ Frappuccino => hielo triturado
 + Mocha Frappuccino: Cafe, leche, chocolate negro, hielo triturado, crema batida
 
 -------------------------------------------------------------------------------
-Maquina vs molienda
+Maquina vs molienda vs concentracion
 
-v60 - media-fina
+expresso - fina 	- muy alta
 
-aeropress - media
+moka 	- media-fina 	- alta 
 
-prensa francesa - gruesa 
+sifon 	- media 	- media alta
 
-moka - fina o media-fina
+prensa francesa - gruesa - media
 
-chemex - media-gruesa
+aeropress - media 	- media
 
-sifon - media
+chemex - media-gruesa 	- media baja
 
-expresso - fina
+v60 - media-fina	- baja
+
 
 
 
