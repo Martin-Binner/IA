@@ -1,0 +1,1219 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#ContieneAgregado -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#ContieneAgregado">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#tieneIngrediente"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#esAgregadoen"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#MoliendaUsadaPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#MoliendaUsadaPor">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#necesitaMolienda"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoMolienda"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMaquina"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#PreparadoCon -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#PreparadoCon">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Café"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMaquina"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#conTemperatura -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#conTemperatura">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Temperatura"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#contieneTopping -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#contieneTopping">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#tieneIngrediente"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#esToppingde"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#deGrano -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#deGrano">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Café"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeGrano"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#echoEn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#echoEn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Café"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMaquina"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#esAgregadoen -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#esAgregadoen">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#esIngredientede"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeAgregados"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#esToppingde"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#esIngredientede -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#esIngredientede">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#tieneIngrediente"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngrediente"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#esMolido -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#esMolido">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeGrano"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoMolienda"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#esToppingde -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#esToppingde">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#esIngredientede"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeTopping"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#necesitaMolienda -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#necesitaMolienda">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#tieneIngrediente -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#tieneIngrediente"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Cantidad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Cantidad">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngrediente"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Temperatura -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Temperatura">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#AeropressMaquina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#AeropressMaquina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMaquina"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#necesitaMolienda"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Media"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#AlmibarAgreg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#AlmibarAgreg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeAgregados"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngredienteDulce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Americano -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Americano">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeAmericanos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Anis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Anis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#AzucarAgreg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#AzucarAgreg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeAgregados"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngredienteDulce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#BlancoMocha -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#BlancoMocha">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMochas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Bombom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Bombom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Cantidad"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">500</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CacaoEnPolvoTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CacaoEnPolvoTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeAgregados -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeAgregados">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngrediente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeAmericanos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeAmericanos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeCaliente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeCaliente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#ContieneAgregado"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#HieloAgreg"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeCapuccinos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeCapuccinos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeCompuesto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeCompuesto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#ContieneAgregado"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngrediente"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeDulce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeDulce">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#tieneIngrediente"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngredienteDulce"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeFlatWhites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeFlatWhites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeFrapuccino -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeFrapuccino">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeFrio"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#ContieneAgregado"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#HieloTriturado"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeFrio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeFrio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#ContieneAgregado"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#HieloAgreg"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeGrano -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeGrano">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#esMolido"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoMolienda"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngrediente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngrediente">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Cantidad"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngredienteDulce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngredienteDulce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngrediente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeLattes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeLattes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMacchiato -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMacchiato">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMaquina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMaquina">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#necesitaMolienda"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoMolienda"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMochas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMochas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeSolo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeSolo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#ContieneAgregado"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngrediente"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngrediente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Café -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Café">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngrediente"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#deGrano"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeGrano"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#echoEn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMaquina"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#tieneIngrediente"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Café"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CanelaLatte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CanelaLatte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeLattes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Capuccino -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Capuccino">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeCapuccinos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Carajillo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Carajillo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaramelosTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaramelosTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngredienteDulce"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CarmelMacchiato -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CarmelMacchiato">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMacchiato"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#ChemexMaquina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#ChemexMaquina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMaquina"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#necesitaMolienda"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#MediaGruesa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#ChocolateAgreg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#ChocolateAgreg">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#ChocolateBlanco"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#ChocolateNegro"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeAgregados"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngredienteDulce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CifónMaquina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CifónMaquina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMaquina"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#necesitaMolienda"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Media"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#DulceDeLecheAgreg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#DulceDeLecheAgreg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeAgregados"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngredienteDulce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#DulceDeLecheLatte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#DulceDeLecheLatte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeLattes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#EsenciaVainillaAgreg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#EsenciaVainillaAgreg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeAgregados"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#EspressoMaquina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#EspressoMaquina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMaquina"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#necesitaMolienda"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Fina"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#FlatWhite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#FlatWhite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeFlatWhites"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#FurtosSecosTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#FurtosSecosTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GalletasTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GalletasTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngredienteDulce"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Grano -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Grano">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoRobustas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoArabicas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoArabicas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeGrano"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoRobustas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoBorbón -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoBorbón">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoArabicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoCatimor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoCatimor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoArabicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoCatuai -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoCatuai">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoArabicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoCatucai -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoCatucai">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoArabicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoCaturra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoCaturra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoArabicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoExcelsa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoExcelsa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoRobustas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoHarar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoHarar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoArabicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoKopiLuwak -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoKopiLuwak">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoRobustas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoMaragogype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoMaragogype">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoArabicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoMisionFrancesa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoMisionFrancesa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoArabicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoMolienda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoMolienda">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Fina"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Gruesa"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Media"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#MediaFina"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#MediaGruesa"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#MoliendaUsadaPor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMaquina"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoMontañaAzul -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoMontañaAzul">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoArabicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoPacamara -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoPacamara">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoArabicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoPacas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoPacas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoArabicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoPache -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoPache">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoArabicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoRobustas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoRobustas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeGrano"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoTipica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoTipica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoArabicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranosDeCafeTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranosDeCafeTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#HieloAgreg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#HieloAgreg">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#HieloTriturado"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#HielosEnCubos"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeAgregados"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Irlandes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Irlandes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#conTemperatura"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Caliente"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#KitKatAgreg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#KitKatAgreg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeAgregados"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngredienteDulce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#KitKatLatte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#KitKatLatte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeLattes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Latte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Latte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeLattes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#LatteMacchiato -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#LatteMacchiato">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMacchiato"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#LecheAgreg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#LecheAgreg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeAgregados"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#LecheCondesadaAgreg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#LecheCondesadaAgreg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeAgregados"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngredienteDulce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#LicorAgreg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#LicorAgreg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeAgregados"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#MielLatte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#MielLatte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeLattes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Mocha -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Mocha">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMochas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#MokaMaquina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#MokaMaquina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMaquina"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#necesitaMolienda"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#MediaFina"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#NataTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#NataTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#NuezMoscadaLatte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#NuezMoscadaLatte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeLattes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#PrensaFrancesaMaquina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#PrensaFrancesaMaquina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMaquina"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#necesitaMolienda"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Gruesa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#SiropeTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#SiropeTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngredienteDulce"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#SkinnyCaramelMacchiato -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#SkinnyCaramelMacchiato">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMacchiato"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#SkinnyVainillaLatte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#SkinnyVainillaLatte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeLattes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Temperatura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Temperatura">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Caliente"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Frio"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#V60Maquina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#V60Maquina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMaquina"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#necesitaMolienda"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#MediaFina"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#VainillaLatte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#VainillaLatte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeLattes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#WhiskyAgreg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#WhiskyAgreg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeAgregados"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Caliente -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Caliente"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#ChocolateBlanco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#ChocolateBlanco"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#ChocolateNegro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#ChocolateNegro"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Fina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Fina"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Frio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Frio"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Gruesa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Gruesa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#HieloTriturado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#HieloTriturado"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#HielosEnCubos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#HielosEnCubos"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Media -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Media"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#MediaFina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#MediaFina"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#MediaGruesa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#MediaGruesa"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#AeropressMaquina"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#ChemexMaquina"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CifónMaquina"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#EspressoMaquina"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#MokaMaquina"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#PrensaFrancesaMaquina"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#V60Maquina"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#AlmibarAgreg"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#AzucarAgreg"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#ChocolateAgreg"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#DulceDeLecheAgreg"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#EsenciaVainillaAgreg"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#KitKatAgreg"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#LecheAgreg"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#LecheCondesadaAgreg"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#LicorAgreg"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#WhiskyAgreg"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CacaoEnPolvoTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaramelosTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#FurtosSecosTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GalletasTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranosDeCafeTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#NataTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#SiropeTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeGrano"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeIngrediente"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CafeMaquina"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#CaféInfusión"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoMolienda"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Temperatura"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#Grano"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoExcelsa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoKopiLuwak"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoBorbón"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoCatimor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoCatuai"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoCatucai"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoCaturra"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoHarar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoMaragogype"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoMisionFrancesa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoMontañaAzul"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoPacamara"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoPacas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoPache"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sch0bl/ontologies/2024/3/untitled-ontology-3#GranoTipica"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
